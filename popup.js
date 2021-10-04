@@ -21,8 +21,8 @@ function spawnimage(x, y) {
   image.setAttribute('class', 'overlays');
   image.setAttribute('width', 64);
   image.setAttribute('height', 64);
-  image.style.left = x - 64 + 'px';
-  image.style.top = y - 64 + 'px';
+  image.style.left = x - 32 + 'px';
+  image.style.top = y - 32 + 'px';
   images.push(image);
   document.body.appendChild(image);
 }
